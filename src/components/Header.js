@@ -7,6 +7,7 @@ import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount";
 import WorkIcon from "@mui/icons-material/Work";
 import ChatIcon from "@mui/icons-material/Chat";
 import NotificationsIcon from "@mui/icons-material/Notifications";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
 function Header() {
   return (
@@ -31,6 +32,10 @@ function Header() {
           <HeaderLinks Icon={WorkIcon} title='Jobs' />
           <HeaderLinks Icon={ChatIcon} title='Messaging' />
           <HeaderLinks Icon={NotificationsIcon} title='Notification' />
+          <HeaderLinks
+            avatar='Photo by Thyrone Paas from Pexels: https://www.pexels.com/photo/portrait-photo-of-man-1722198/'
+            title='Me'
+          />
         </div>
       </nav>
     </header>

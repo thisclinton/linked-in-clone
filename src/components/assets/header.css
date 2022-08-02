@@ -1,5 +1,5 @@
 .header {
-    position: fixed;
+    position: sticky;
     width: 100%;
     border-bottom: 0.1px solid hsl(0, 0%, 83%);
     padding: .6rem 0;
@@ -49,6 +49,7 @@
     flex-direction: column;
     align-items: center;
     color: hsl(0, 0%, 50%);
+    cursor: pointer;
 }
 
 .HeaderLinks:hover {
